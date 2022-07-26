@@ -3,7 +3,7 @@
     <h1>Hello How r u</h1>
     <h2>{{state.count}}</h2>
     <button @click="increment">
-  {{ state.count }}
+ click
 </button>
   </div>
 </template>
