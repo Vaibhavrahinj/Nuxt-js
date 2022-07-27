@@ -7,7 +7,8 @@
     <input type="text" placeholder="add" v-model="mydata.add" />
     <input type="number" placeholder="mobileno" v-model="mydata.mobileno" />
     <input type="color" v-model="state.mycolor"/>
-    <p :style="{color: state.mycolor}" id="myname">My information is:{{ mydata.info }}</p>
+    <button @click="state.show = !state.show">{{state.show ? 'Hide' : 'show'}}</button>
+    <p v-if="state.show" :style="{color: state.mycolor}" id="myname">My information is:{{ mydata.info }}</p><br><br>
     <button @click="ChangeColor()">change color</button>
 
   </div>
@@ -19,7 +20,9 @@ import { reactive } from "vue";
 // const state = reactive({ count: 0 });
 export default {
   setup() {
-    const state = reactive({count: 0});
+    const state = reactive({count: 0,
+    show:true,
+    });
 
     function ChangeColor() {
       document.getElementById("myname").style.color = "#FF0000";
