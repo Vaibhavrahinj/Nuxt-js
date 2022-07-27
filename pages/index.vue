@@ -5,6 +5,10 @@
     <h1>Hello How Are you...!</h1>
     <h2>{{state.count}}</h2>
     <button @click="increment">
+    <input type="text" placeholder="fname" v-model="mydata.fname">
+    <input type="text" placeholder="add" v-model="mydata.add">
+    <input type="number" placeholder="mobileno" v-model="mydata.mobileno">
+    <p>My information is:{{mydata.fname + ' ' + mydata.add + ' ' +mydata.mobileno}}</p>
  click
 </button>
   </div>
@@ -24,6 +28,14 @@ export default {
     const state = reactive({ count: 0 })
       function increment() {
       state.count++
+
+    }
+    const mydata=reactive({
+      fname:'vaibhav',
+      add:'pune',
+      mobileno:9876532234
+    })
+
     
      books: [
     'Vue 2 - Advanced Guide',
@@ -34,11 +46,16 @@ export default {
       }
       
 
+
     
     return {
       state,
       increment,
+
+      mydata
+
       firstname
+
     }
   }
 
