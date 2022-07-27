@@ -6,7 +6,7 @@
     <input type="text" placeholder="fname" v-model="mydata.fname">
     <input type="text" placeholder="add" v-model="mydata.add">
     <input type="number" placeholder="mobileno" v-model="mydata.mobileno">
-    <p>My information is:{{mydata.fname + ' ' + mydata.add + ' ' +mydata.mobileno}}</p>
+    <p>My information is:{{mydata.info}}</p>
  click
 </button>
   </div>
@@ -25,7 +25,10 @@ export default {
     const mydata=reactive({
       fname:'vaibhav',
       add:'pune',
-      mobileno:9876532234
+      mobileno:9876532234,
+      info:computed(()=> {
+        return mydata.fname+ ' ' + mydata.add + ' ' + mydata.mobileno + ' ' + "Sambhajinagar";
+      })
     })
 
     // expose the state to the template
