@@ -1,0 +1,81 @@
+[33mcommit 9a21992b8d5a560d15ae9597fd188fc260bd546a[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/if[m[33m)[m
+Author: Vaibhavrahinj <70082433+Vaibhavrahinj@users.noreply.github.com>
+Date:   Wed Jul 27 14:30:09 2022 +0530
+
+    Add v-if condition in nuxt  with show and hide content
+
+[33mcommit 96cc77efe4970cdd66ec081c259b8d1a714d829b[m[33m ([m[1;31morigin/nuxt[m[33m)[m
+Author: Vaibhavrahinj <70082433+Vaibhavrahinj@users.noreply.github.com>
+Date:   Wed Jul 27 12:57:17 2022 +0530
+
+    Style binding in nuxt
+
+[33mcommit 21a5fda5698ff9c0443b651a25e2717ca365a639[m[33m ([m[1;31morigin/nuxt3[m[33m)[m
+Author: Vaibhavrahinj <70082433+Vaibhavrahinj@users.noreply.github.com>
+Date:   Wed Jul 27 12:09:22 2022 +0530
+
+    add computed method
+
+[33mcommit a02cbcfff390f1747f214bb43fee4af6a26b14ec[m[33m ([m[1;31morigin/nuxt2[m[33m)[m
+Author: Vaibhavrahinj <70082433+Vaibhavrahinj@users.noreply.github.com>
+Date:   Wed Jul 27 11:39:48 2022 +0530
+
+    only ref and reactive
+
+[33mcommit 76e132b4c60c94d15eaa9e951c35540484aabff1[m
+Merge: 554e61d 7ec2d5a
+Author: Vaibhavrahinj <70082433+Vaibhavrahinj@users.noreply.github.com>
+Date:   Wed Jul 27 11:34:46 2022 +0530
+
+    Merge pull request #3 from Vaibhavrahinj/nuxt2
+    
+    add object using reactive and using ref add first name
+
+[33mcommit 7ec2d5a784d2537811267465ad385a915d5c6a4e[m
+Merge: 62eb1e3 554e61d
+Author: Vaibhavrahinj <70082433+Vaibhavrahinj@users.noreply.github.com>
+Date:   Wed Jul 27 11:34:23 2022 +0530
+
+    Merge branch 'main' into nuxt2
+
+[33mcommit 62eb1e3aaced96ecd038f7a23b358a9680c5589d[m
+Author: Vaibhavrahinj <70082433+Vaibhavrahinj@users.noreply.github.com>
+Date:   Wed Jul 27 11:32:57 2022 +0530
+
+    add object using reactive and using ref add first name
+
+[33mcommit 554e61df166af31d645ad3b42dd0a67fd1d1049b[m
+Merge: 24788ef 9f420f7
+Author: Vaibhavrahinj <70082433+Vaibhavrahinj@users.noreply.github.com>
+Date:   Wed Jul 27 11:14:29 2022 +0530
+
+    Merge pull request #2 from Vaibhavrahinj/nuxt1
+    
+    Add one way binding
+
+[33mcommit 9f420f78ff7638407071054786d4a2832a6f0e4e[m[33m ([m[1;31morigin/nuxt1[m[33m)[m
+Author: Vaibhavrahinj <70082433+Vaibhavrahinj@users.noreply.github.com>
+Date:   Wed Jul 27 11:13:52 2022 +0530
+
+    Add one way binding
+
+[33mcommit 24788ef6441d0ef7d63ac403bb93d3157ebb3e1b[m
+Merge: 68401f8 b16bfa6
+Author: Vaibhavrahinj <70082433+Vaibhavrahinj@users.noreply.github.com>
+Date:   Tue Jul 26 17:52:19 2022 +0530
+
+    Merge pull request #1 from Vaibhavrahinj/nuxt
+    
+    count in nuxt js
+
+[33mcommit b16bfa68187f3ad56371b1d08b4134521116dc40[m
+Author: Vaibhavrahinj <70082433+Vaibhavrahinj@users.noreply.github.com>
+Date:   Tue Jul 26 17:50:19 2022 +0530
+
+    count in nuxt js
+
+[33mcommit 68401f8f09e102be260defa8e39a91d8547412d7[m
+Author: Vaibhavrahinj <70082433+Vaibhavrahinj@users.noreply.github.com>
+Date:   Tue Jul 26 17:30:32 2022 +0530
+
+    Added My first nuxt app data
